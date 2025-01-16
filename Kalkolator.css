@@ -1,0 +1,82 @@
+*{
+    background-color: aquamarine;
+}
+
+form{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    padding: 10px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+
+.div{
+    background-color: red;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 38px;
+    width: 400px;
+}
+
+input{
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 1.2px solid black;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+}
+
+.nomor1, .nomorkonvert{
+    width: 395px;
+    height: 45px;
+}
+
+.nomor2{
+    width: 330px;
+    height: 45px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: none; /* Safari dan Chrome */
+    appearance: none; /* Standard */
+  }
+
+  input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1.2px solid black;
+    background: blue;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button-website{
+    display: flex;
+    justify-content: space-evenly;
+}
