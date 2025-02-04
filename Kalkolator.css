@@ -43,7 +43,7 @@ input{
 }
 
 .nomor2{
-    width: 330px;
+    width: 290px;
     height: 45px;
 }
 
@@ -79,4 +79,18 @@ button{
 .button-website{
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 95%;
+        padding: 10px;
+    }
+    p, input, select, button {
+        font-size: 18px;
+        height: 40px;
+    }
+    button {
+        font-size: 18px;
+    }
 }

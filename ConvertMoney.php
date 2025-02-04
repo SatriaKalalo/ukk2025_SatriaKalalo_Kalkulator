@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator dan Konverter Mata Uang</title>
+    <title>Konverter Mata Uang</title>
 </head>
     <link href="Kalkolator.css" rel="stylesheet">
 <body>
