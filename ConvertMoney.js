@@ -13,7 +13,7 @@ document.getElementById('currency-form').addEventListener('submit', async functi
 
     let result;
     if (!exchangeRates[fromCurrency] || !exchangeRates[fromCurrency][toCurrency]) {
-        result = 'Invalid currency conversion';
+        result = 'Failed';
     } else {
         const rate = exchangeRates[fromCurrency][toCurrency];
         result = amount * rate;
